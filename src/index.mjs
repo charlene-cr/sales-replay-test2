@@ -23,3 +23,4 @@ export { planReconciliation } from "./reconciliation/planner.mjs";
 export { advanceWatermark, compareCursor, createWatermarkStore } from "./import/watermarks.mjs";
 export { createPolicy, evaluatePolicies, memoContains } from "./policy/engine.mjs";
 export { collectImportStream, mapImportStream } from "./import/pipeline.mjs";
+export { renderAuditReport } from "./audit/report.mjs";

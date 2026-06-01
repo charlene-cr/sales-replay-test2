@@ -16,3 +16,4 @@ export {
 } from "./rules.mjs";
 export { packageHealth } from "./health.mjs";
 export { normalizeEntries, normalizeImportedEvent } from "./import/normalize.mjs";
+export { accountHasTag, accountsForTag, buildAccountTagIndex } from "./accounts/tags.mjs";

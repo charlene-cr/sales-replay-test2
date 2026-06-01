@@ -19,3 +19,4 @@ export { normalizeEntries, normalizeImportedEvent } from "./import/normalize.mjs
 export { accountHasTag, accountsForTag, buildAccountTagIndex } from "./accounts/tags.mjs";
 export { loadLedgerSnapshot, parseLedgerSnapshot } from "./snapshot.mjs";
 export { duplicateKey, findDuplicateEvents } from "./import/duplicates.mjs";
+export { planReconciliation } from "./reconciliation/planner.mjs";

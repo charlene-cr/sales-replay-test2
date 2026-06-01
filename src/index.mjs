@@ -17,3 +17,4 @@ export {
 export { packageHealth } from "./health.mjs";
 export { normalizeEntries, normalizeImportedEvent } from "./import/normalize.mjs";
 export { accountHasTag, accountsForTag, buildAccountTagIndex } from "./accounts/tags.mjs";
+export { loadLedgerSnapshot, parseLedgerSnapshot } from "./snapshot.mjs";

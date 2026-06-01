@@ -25,3 +25,4 @@ export { createPolicy, evaluatePolicies, memoContains } from "./policy/engine.mj
 export { collectImportStream, mapImportStream } from "./import/pipeline.mjs";
 export { renderAuditReport } from "./audit/report.mjs";
 export { addMoney, assertSameCurrency, createMoney, negateMoney } from "./currency.mjs";
+export { createWorkspace, groupActions } from "./reconciliation/workspace.mjs";

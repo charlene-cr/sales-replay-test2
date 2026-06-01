@@ -24,3 +24,4 @@ export { advanceWatermark, compareCursor, createWatermarkStore } from "./import/
 export { createPolicy, evaluatePolicies, memoContains } from "./policy/engine.mjs";
 export { collectImportStream, mapImportStream } from "./import/pipeline.mjs";
 export { renderAuditReport } from "./audit/report.mjs";
+export { addMoney, assertSameCurrency, createMoney, negateMoney } from "./currency.mjs";

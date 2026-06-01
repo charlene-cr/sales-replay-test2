@@ -206,6 +206,7 @@ function deleteLocalBranch(branch) {
 }
 
 function changedLineStats(base) {
+  run("git", ["add", "--intent-to-add", "-A"]);
   const output = run("git", ["diff", "--numstat", base, "--"]);
   let additions = 0;
   let deletions = 0;

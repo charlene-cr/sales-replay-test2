@@ -14,3 +14,4 @@ export {
   validateEvent,
   validateLedger,
 } from "./rules.mjs";
+export { packageHealth } from "./health.mjs";
